@@ -10,10 +10,8 @@ class HomePage extends StatelessWidget {
         title: Text("Catalog App"),
       ),
       body: Center(
-          child: Container(
-        // ignore: prefer_const_constructors
-        child: Text(" Hello world "),
-      )),
+        child: Text(" Hi, Welcome.. "),
+      ),
       drawer: Drawer(),
     );
   }
